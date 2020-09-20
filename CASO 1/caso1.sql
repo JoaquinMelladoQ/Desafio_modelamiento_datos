@@ -1,7 +1,6 @@
 CREATE DATABASE modelo;
 
 CREATE TABLE trabajador(
-    id INT,
     nombre VARCHAR(50) PRIMARY KEY,
     rut VARCHAR(50) NOT NULL,
     dirección VARCHAR(100) NOT NULL,
