@@ -16,6 +16,8 @@ CREATE TABLE trabajador(
     dirección VARCHAR(100) NOT NULL,
     nombre_dpto VARCHAR(50),
     liquidación_1_a VARCHAR(200)
-    nombre_trabajador_table VARCHAR(50) REFERENCES departamento (nombre_trabajador_dep)
-    nombre_trabajador_liq VARCHAR(50) REFERENCES liquidaciones (nombre_trabajador_li)
+    nombre_trabajador_table VARCHAR(50)
+    REFERENCES departamento (nombre_trabajador_dep)
+    nombre_trabajador_liq VARCHAR(50)
+    REFERENCES liquidaciones (nombre_trabajador_li)
 )
