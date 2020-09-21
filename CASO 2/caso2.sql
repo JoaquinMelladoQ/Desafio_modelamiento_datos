@@ -1,1 +1,8 @@
 CREATE DATABASE modelo_dos;
+
+CREATE TABLE alumno(
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(70) NOT NULL,
+    rut INT NOT NULL,
+    curso INT NOT NULL FOREIGN KEY
+)
