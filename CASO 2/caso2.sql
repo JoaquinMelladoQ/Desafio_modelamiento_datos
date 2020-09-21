@@ -17,8 +17,10 @@ CREATE TABLE pruebas(
     puntaje INT NOT NULL,
     nombre_profe INT NOT NULL FOREIGN KEY, 
     REFERENCES profesor(id)
-)
+);
 
 CREATE TABLE profesor(
-    
-)
+    id SERIAL PRIMARY KEY,
+    nombre_profesor VARCHAR(70) NOT NULL,
+    departamento VARCHAR(50) NOT NULL
+);
