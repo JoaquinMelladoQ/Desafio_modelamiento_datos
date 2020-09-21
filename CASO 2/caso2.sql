@@ -6,3 +6,7 @@ CREATE TABLE alumno(
     rut NUMERIC NOT NULL,
     curso INT NOT NULL FOREIGN KEY
 )
+
+CREATE TABLE curso(
+    
+)
