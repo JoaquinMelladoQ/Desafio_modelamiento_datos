@@ -24,3 +24,7 @@ CREATE TABLE profesor(
     nombre_profesor VARCHAR(70) NOT NULL,
     departamento VARCHAR(50) NOT NULL
 );
+
+CREATE TABLE middle_table(
+    
+)
