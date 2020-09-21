@@ -27,5 +27,7 @@ CREATE TABLE profesor(
 );
 
 CREATE TABLE middle_table(
-
+    id_al1 INT FOREIGN KEY,
+    REFERENCES alumno(id),
+    
 );
