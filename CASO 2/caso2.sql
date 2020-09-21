@@ -4,7 +4,8 @@ CREATE TABLE alumno(
     id SERIAL PRIMARY KEY,
     nombre VARCHAR(70) NOT NULL,
     rut NUMERIC NOT NULL,
-    curso INT NOT NULL FOREIGN KEY
+    curso INT NOT NULL FOREIGN KEY,
+    REFERENCES curso(id)
 );
 
 CREATE TABLE curso(
