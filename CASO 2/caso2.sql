@@ -8,5 +8,6 @@ CREATE TABLE alumno(
 )
 
 CREATE TABLE curso(
-    
+    id SERIAL PRIMARY KEY
+    nombre_alumnos VARCHAR(70)
 )
