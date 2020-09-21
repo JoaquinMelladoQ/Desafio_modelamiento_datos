@@ -13,5 +13,8 @@ CREATE TABLE curso(
 )
 
 CREATE TABLE pruebas(
-    
+    id SERIAL
+    puntaje INT NOT NULL,
+    nombre_profe INT NOT NULL FOREIGN KEY, 
+    REFERENCES profesores(id)
 )
