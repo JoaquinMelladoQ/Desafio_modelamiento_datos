@@ -11,3 +11,7 @@ CREATE TABLE curso(
     id SERIAL PRIMARY KEY
     nombre_alumnos VARCHAR(70)
 )
+
+CREATE TABLE pruebas(
+    
+)
