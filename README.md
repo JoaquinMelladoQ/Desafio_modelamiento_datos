@@ -1,6 +1,6 @@
 # *Instrucciones*
 
-En los siguientes problemas se debe entregar como resultado el modelo lógico y físico de cada uno
+En los siguientes problemas se debe entregar como resultado el _**modelo lógico**_ y _**físico**_ de cada uno
 de los siguientes casos. Para realizar los diagramas se recomienda utilizar http://draw.io
 Adicionalmente se debe crear un archivo caso1.sql y caso2.sql con las sentencias sql para crear el
 modelo.
