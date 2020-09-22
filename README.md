@@ -6,25 +6,25 @@ Adicionalmente se debe crear un archivo caso1.sql y caso2.sql con las sentencias
 modelo.
 
 ## Caso 1
-Un trabajador pertenece a un departamento.
++ Un trabajador pertenece a un departamento.
 
-El trabajador tiene un nombre, rut y dirección.
++ El trabajador tiene un nombre, rut y dirección.
 
-El departamento tiene un nombre.
++ El departamento tiene un nombre.
 
-Un trabajador posee liquidaciones.
++ Un trabajador posee liquidaciones.
 
-La liquidación se guarda en un archivo drive.
++ La liquidación se guarda en un archivo drive.
 
 ## Caso 2
-Un alumno, con nombre y rut pertenece a un curso.
++ Un alumno, con nombre y rut pertenece a un curso.
 
-Un curso tiene muchos alumnos.
++ Un curso tiene muchos alumnos.
 
-Un alumno realiza pruebas.
++ Un alumno realiza pruebas.
 
-Las pruebas las califica un profesor.
++ Las pruebas las califica un profesor.
 
-La prueba tiene un puntaje.
++ La prueba tiene un puntaje.
 
-El profesor tiene nombre y departamento.
++ El profesor tiene nombre y departamento.
